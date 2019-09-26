@@ -9,6 +9,12 @@ namespace stackOverFlowApi.Models
     public int AnswerLike { get; set; }
     public int AnswerDislike { get; set; }
 
+    // public int UnicornId{get;set;}
+    public int QuestionsId { get; set; }
+
+    // public ModelName Unicorn{get;set;}
+    public Questions Questions { get; set; }
+
   }
 }
 
