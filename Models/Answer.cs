@@ -6,8 +6,8 @@ namespace stackOverFlowApi.Models
   {
     public int Id { get; set; }
     public string Answer { get; set; }
-    public int AnswerUpVote { get; set; }
-    public int AnswerDownVote { get; set; }
+    public int AnswerLike { get; set; }
+    public int AnswerDislike { get; set; }
 
   }
 }
